@@ -12,7 +12,7 @@ This folder contains the R scripts used to analyze the cleaned data and produce 
 - Violence(Events and Fatalities)
 
 ## Files (run in order)
-- `01_data_import_cleaning.R` — imports cleaned data from `../excel/`, final formatting checks
+- `Nigeria_data.R` — imports cleaned data from `../excel/`, final formatting checks
 - `02_naira_value_analysis.R` — exchange rate trend analysis
 - `03_unemployment_analysis.R` — unemployment trend analysis
 - `04_poverty_analysis.R` — poverty trend analysis
