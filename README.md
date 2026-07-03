@@ -22,8 +22,6 @@ Analysis of Nigeria's key economic and security indicators over the past decade-
 - Unemployment improved over the period — despite rising to a peak of ~6.1% around 2020/2021, it fell sharply afterward, ending at roughly 3% by 2025, below its 2012 starting point of ~3.7%.
 Debt worsened sharply — total debt stayed relatively flat through the 2010s but rose steeply from around 2020 onward, roughly quadrupling by 2025.
 
-![Dashboard](powerbi/dashboard_screenshot.png)
-
 ## Reproduce
 1. `git clone https://github.com/DFathia-web/[repo-name].git`
 2. Run scripts in `r/` in order
