@@ -1,11 +1,18 @@
-# Excel — Data Cleaning 
+# Excel — Raw Data & Cleaning
 
-This folder contains the Excel workbook(s) used to clean and prepare the raw data before analysis in R.
+This folder contains the original Nigeria-specific data for each indicator, pulled from their respective sources, before cleaning.
 
 ## Files
-- `nigeria_data_cleaning.xlsx` — raw data cleaning: standardizing year formats, handling missing values, and structuring each indicator (debt, inflation, electricity, unemployment, violence events, fatalities) into consistent yearly columns
+One raw file per indicator, trimmed to Nigeria only (extracted from the full multi-country World Bank, DMO Nigeria, ACLED, and Investing.com downloads):
+- Debt
+- Electricity
+- Inflation
+- Naira value
+- Poverty
+- Unemployment
+- Violence
 
 ## Notes
-- Cleaned output from this stage feeds directly into the scripts in `../r/`
-- Raw source data (World Bank, DMO Nigeria, ACLED, Investing.com) is linked in the main [README](../README.md) rather than duplicated here
-- 
+- Full multi-country source files are not included here, only Nigeria's data, to keep the repo focused and lightweight
+- Cleaned versions of these files are exported to `../data/`, one CSV per indicator, ready for use in the R scripts
+- Original sources are linked in the main [README](../README.md)
